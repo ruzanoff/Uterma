@@ -50,13 +50,11 @@ public class Set extends Activity {
 
                         /* boolean isInserted = myDb.insertData(editName.getText().toString()); */
                         boolean isInserted = myDb.updateData(editName.getText().toString(), "RU", sex, 2, 3);
-                        if (isInserted = true)
-                            Toast.makeText(Set.this, "Data Inserted", Toast.LENGTH_LONG).show();
-                        Intent resultIntent = new Intent(this, Main.class);
-                        startActivity(resultIntent);
+                        if(isInserted == true)
+                        Toast.makeText(Set.this, "Data Inserted", Toast.LENGTH_LONG).show();
                         else
-                        Toast.makeText(Set.this, "Data not Inserted", Toast.LENGTH_LONG).show();
-                    }
+                            Toast.makeText(Set.this, "Data not Inserted", Toast.LENGTH_LONG).show();
+                        }
                 }
         );
     }
