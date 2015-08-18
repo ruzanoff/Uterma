@@ -58,9 +58,9 @@ public class DataUserHelper extends SQLiteOpenHelper {
         else return true;
     }
 
-    public boolean readData(Integer usermane){
+/*    public boolean readData(Integer usermane){
         long insertId = Db.insert(MySQLiteHelper.TABLE_Name, null, values);
-    }
+    }*/
 
     public boolean updateData(String username, String lang, String sex, Integer age, Integer points) {
         SQLiteDatabase db = this.getWritableDatabase();
