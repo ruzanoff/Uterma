@@ -30,6 +30,7 @@ public class DataUserHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+
     public void firstData(String username, String lang, String sex, Integer age, Integer points) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
