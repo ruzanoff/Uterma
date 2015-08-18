@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class Main extends Activity {
+    DataUserHelper myDb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,14 @@ public class Main extends Activity {
         Intent resultIntent = new Intent(this, Set.class);
         startActivity(resultIntent);
     }
-    //Бардак
+    //Проверяем регистрацию
+
+/*    public int getShopCount() {
+        String query = "SELECT * FROM " + AppData.TABLE_NAME;
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(query, null);
+        cursor.close();
+        return cursor.getCount();
+    }*/
 
 }

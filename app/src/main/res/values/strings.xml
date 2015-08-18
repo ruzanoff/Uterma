@@ -12,6 +12,7 @@
     <string name="main_btn_to_ask">Спросить</string>
     <string name="main_btn_to_answer">Ответить</string>
     <string name="main_btn_set">Настройки</string>
+    <string name="main_hi_text">Привет! Давай все настроим</string>
 
     <string name="setting_name_text">Имя</string>
     <string name="setting_age_text">Возраст</string>
