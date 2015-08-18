@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Uterma</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_to_ask">ToAsk</string>
+
+    <string name="help_text_ask">Задай свой вопрос</string>
+    <string name="btn_text_ask">Отправить</string>
+
+    <string name="main_btn_to_ask">Спросить</string>
+    <string name="main_btn_to_answer">Ответить</string>
+    <string name="main_btn_set">Настройки</string>
+
+    <string name="setting_name_text">Имя</string>
+    <string name="setting_age_text">Возраст</string>
+    <string name="setting_btn_text">Принять</string>
+    <string name="setting_sex_text">Пол</string>
+    <string name="setting_rbtn_text_male">Мужчина</string>
+    <string name="setting_rbtn_text_female">Женщина</string>
+
+</resources>
